@@ -1,0 +1,13 @@
+#intro {
+  padding: 30% 1rem 10rem 10rem;
+}
+
+.welcome {
+  font-weight: 800;
+  line-height: 6rem;
+}
+.introContent {
+  left: 50%;
+  top: 50%;
+  width: 50%;
+}
