@@ -4,18 +4,24 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  position: absolute;
-  top: 0;
-  right: 0;
+  font-size: 32px;
   z-index: 3;
+  padding: 2rem 1rem;
+}
+
+.lightMode {
+  justify-content: flex-start;
+  margin: 1rem;
+  left: 0;
 }
 .ConList {
-  padding: 2rem 1rem;
+  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+  height: auto;
 }
 .conBarItem {
   margin: 1rem;
-  font-size: 32px;
   cursor: pointer;
-  color: lime;
+  color: black;
 }

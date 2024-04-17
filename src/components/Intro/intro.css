@@ -1,5 +1,5 @@
 #intro {
-  padding: 30% 1rem 10rem 10rem;
+  padding: 22% 0 0;
 }
 
 .welcome {
@@ -7,7 +7,6 @@
   line-height: 6rem;
 }
 .introContent {
-  left: 50%;
-  top: 50%;
-  width: 50%;
+  width: 57%;
+  padding: 5%;
 }

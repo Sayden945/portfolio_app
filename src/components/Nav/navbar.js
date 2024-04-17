@@ -1,15 +1,20 @@
 import React from "react";
 import "./navbar.css";
-import { Link } from "react-scroll";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navMenu">
-        <Link className="menuListItems">Home</Link>
-        <Link className="menuListItems">About</Link>
-        <Link className="menuListItems">Portfolio</Link>
-        <Link className="menuListItems">Contact</Link>
+        <NavLink to="/" className="menuListItems">
+          Home
+        </NavLink>
+        <NavLink to="/portfolio" className="menuListItems">
+          Portfolio
+        </NavLink>
+        <NavLink to="/about" className="menuListItems">
+          About
+        </NavLink>
       </div>
     </nav>
   );
