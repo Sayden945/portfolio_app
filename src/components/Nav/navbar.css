@@ -1,18 +1,15 @@
 .navbar {
-    height: 5rem;
-    width: 100vw;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    bottom: 0;
-    z-index: 3;
+  top: 50%;
+  width: 150px;
+  left: 40px;
+  margin: 0 auto;
+  position: fixed;
 }
 
-.menuListItems {
-    margin: 1rem;
-    cursor: pointer;
-    font-weight: 300;
-    font-size: 25px;
+.navbar a {
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 25px;
+  color: #4ade80;
 }
