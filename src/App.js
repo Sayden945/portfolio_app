@@ -4,13 +4,14 @@ import Projects from "./components/Projects/projects";
 import About from "./components/About/about";
 import Navbar from "./components/Nav/navbar";
 import Home from "./components/Home/home";
+import Contact from "./components/Contact/contact";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header>
-        <p>Ayden Smith</p>
+        <Contact />
       </header>
 
       <div className="main">

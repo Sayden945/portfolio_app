@@ -4,6 +4,7 @@
   text-decoration: none;
   box-sizing: border-box;
   background: transparent;
+  list-style-type: none;
 }
 
 body {
