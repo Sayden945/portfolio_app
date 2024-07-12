@@ -10,24 +10,26 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+      {/* Header bar containing contact icons */}
       <header>
         <Contact />
       </header>
 
       <div className="main">
         <HashRouter>
-          <div>
-            <Navbar />
-          </div>
+          <Navbar />
 
+          {/* Content of slide */}
           <div className="content">
             <Routes>
               <Route exact path="/" element={<Home />}>
                 Home
               </Route>
+
               <Route exact path="/about" element={<About />}>
                 About
               </Route>
+
               <Route exact path="/projects" element={<Projects />}>
                 projects
               </Route>

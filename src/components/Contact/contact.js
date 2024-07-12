@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <nav className="conBar">
       <div>
-        <h6>Ayden Smith</h6>
+        <p>Ayden Smith</p>
       </div>
       <div className="ConList">
         <a href="mailto:ayden_js@yahoo.com" className="conBarItem">

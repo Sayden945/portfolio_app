@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import "./skills.css";
 
 function Skills() {
   return (
-    <div>skills</div>
-  )
+    <div id="skill-card">
+      <h2>&lt;My Skills / &gt;</h2>
+    </div>
+  );
 }
 
-export default Skills
+export default Skills;

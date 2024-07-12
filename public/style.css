@@ -5,6 +5,7 @@
   box-sizing: border-box;
   background: transparent;
   list-style-type: none;
+  cursor: default;
 }
 
 body {

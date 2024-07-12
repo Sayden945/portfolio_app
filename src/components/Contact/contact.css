@@ -6,7 +6,20 @@
   align-items: center;
   font-size: 32px;
   z-index: 3;
-  padding: 2rem 1rem;
+  padding: 2rem 0rem;
+  color: #4ade80;
+}
+
+.conBar p {
+  padding-left: 40px;
+  transition: 0.5s;
+}
+
+.conBar p:hover {
+  cursor: default;
+  color: #f0fdf4;
+  text-shadow: #4ade80 0 0 15px;
+  transition: 0.05s;
 }
 
 .ConList {
@@ -15,8 +28,20 @@
   right: 0;
   height: auto;
 }
-.conBarItem {
+.ConList a {
   margin: 1rem;
   cursor: pointer;
   color: #4ade80;
+  transition: 0.5s;
+}
+
+.ConList a:hover {
+  color: #f0fdf4;
+  filter: drop-shadow(0 0 10px #4ade80);
+  transition: 0.05s;
+  -webkit-transition: 0.05s;
+  -moz-transition: 0.05s;
+  -ms-transition: 0.05s;
+  -o-transition: 0.05s;
+  -webkit-filter: drop-shadow(0 0 10px #4ade80);
 }
