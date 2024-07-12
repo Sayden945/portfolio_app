@@ -4,7 +4,7 @@ import "./skills.css";
 function Skills() {
   return (
     <div id="skill-card">
-      <h2>&lt;My Skills / &gt;</h2>
+      <h2>&lt; Skills / &gt;</h2>
     </div>
   );
 }

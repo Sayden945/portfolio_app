@@ -1,3 +1,7 @@
-#project-main {
-  left: 50%;
+#project-card {
+  padding: 15px 10px;
+}
+
+h2 {
+  color: #4ade80;
 }

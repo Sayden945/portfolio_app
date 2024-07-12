@@ -1,7 +1,12 @@
 import React from "react";
+import "./home.css";
 
 function Home() {
-  return <div>Home Component</div>;
+  return (
+    <div id="home-card">
+      <h2>&lt; Home / &gt;</h2>
+    </div>
+  );
 }
 
 export default Home;

@@ -5,6 +5,7 @@ import About from "./components/About/about";
 import Navbar from "./components/Nav/navbar";
 import Home from "./components/Home/home";
 import Contact from "./components/Contact/contact";
+import Terminal from "./components/Terminal/terminal";
 import "./App.css";
 
 function App() {

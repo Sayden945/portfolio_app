@@ -3,10 +3,8 @@ import "./projects.css";
 
 function Projects() {
   return (
-    <div id="project-main">
-      <div className="project-cardset">
-        <article>Article1</article>
-      </div>
+    <div id="project-card">
+      <h2>&lt; Projects / &gt;</h2>
     </div>
   );
 }
