@@ -3,9 +3,18 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  position: relative;
+  position: absolute;
 }
-
+#particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  z-index: 0; /* if you use -1 you have to set to `"window"` the interactivity.detectsOn property */
+}
 header {
   position: fixed;
   top: 0;
@@ -20,31 +29,6 @@ header {
   z-index: 1000;
 }
 
-.content {
-  opacity: 50%;
+.app {
   position: relative;
-  height: 60vh;
-  left: 30vh;
-  width: 50%;
-  background-color: rgba(35, 35, 35);
-  border: 0.35rem outset #16a34a;
-  box-shadow: 5px 5px 10px grey;
-  border-radius: 25px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  -ms-border-radius: 25px;
-  -o-border-radius: 25px;
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
-}
-.content:hover {
-  opacity: 100%;
-  transition: 0.5s;
-  -webkit-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -o-transition: 0.5s;
 }

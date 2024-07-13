@@ -1,0 +1,46 @@
+.content {
+  opacity: 50%;
+  position: relative;
+  height: 60vh;
+  left: 30vh;
+  width: 50%;
+  background-color: rgb(35, 35, 35);
+  backdrop-filter: blur(140px);
+  border: 0.35rem outset #16a34a;
+  box-shadow: 5px 5px 10px grey;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.content:hover {
+  opacity: 100%;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+#stdin {
+  padding-left: 10px;
+  color: #4ade80;
+  line-height: 10px;
+}
+
+.text {
+  animation: 1s ease-in-out infinite blinker;
+  -webkit-animation: 1s ease-in-out infinite blinker;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 15%;
+  }
+}
