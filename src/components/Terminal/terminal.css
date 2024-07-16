@@ -1,18 +1,18 @@
 .content {
-  opacity: 50%;
+  opacity: 60%;
   position: relative;
-  height: 60vh;
-  left: 30vh;
+  height: 60%;
+  left: 15%;
   width: 50%;
   background-color: rgb(35, 35, 35);
   backdrop-filter: blur(140px);
-  border: 0.35rem outset #16a34a;
+  border: 0.4rem outset #16a34a;
   box-shadow: 5px 5px 10px grey;
-  border-radius: 25px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  -ms-border-radius: 25px;
-  -o-border-radius: 25px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
   transition: 0.5s;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;

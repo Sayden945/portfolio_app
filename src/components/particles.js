@@ -34,6 +34,7 @@ const ParticlesComponent = (props) => {
         },
       },
       fpsLimit: 120,
+
       particles: {
         color: {
           value: "#bbf7d0",
@@ -58,14 +59,14 @@ const ParticlesComponent = (props) => {
             default: "bounce",
           },
           random: false,
-          speed: 0.4,
+          speed: 0.2,
           straight: false,
         },
         number: {
           density: {
             enable: true,
           },
-          value: 50,
+          value: 100,
         },
         opacity: {
           value: 0.5,

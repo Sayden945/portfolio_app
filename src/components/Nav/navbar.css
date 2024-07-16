@@ -33,4 +33,5 @@
 .navbar a.active {
   color: #f0fdf4;
   text-shadow: #4ade80 0 0 15px;
+  font-size: 28px;
 }
