@@ -3,7 +3,9 @@ import Navbar from "./components/Nav/navbar";
 import Contact from "./components/Contact/contact";
 import Terminal from "./components/Terminal/terminal";
 import Particles from "./components/particles";
+
 import "./App.css";
+import Footer from "./components/Home/footer";
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
           {/* Content terminal */}
           <Terminal />
         </HashRouter>
+        <Footer />
       </div>
     </div>
   );
