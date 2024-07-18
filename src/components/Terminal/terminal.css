@@ -28,12 +28,6 @@
   -o-transition: 0.5s;
 }
 
-#stdin {
-  padding-left: 10px;
-  color: #4ade80;
-  line-height: 10px;
-}
-
 .text {
   animation: 1s ease-in-out infinite blinker;
   -webkit-animation: 1s ease-in-out infinite blinker;

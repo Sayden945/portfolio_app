@@ -6,9 +6,9 @@ import About from "../About/about";
 import Home from "../Home/home";
 import "./terminal.css";
 import TerminalNav from "./terminalNav";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
-import { faWindowMinimize } from "@fortawesome/free-regular-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
+// import { faWindowMinimize } from "@fortawesome/free-regular-svg-icons";
 
 function Terminal() {
   return (
@@ -23,14 +23,14 @@ function Terminal() {
         </Routes>
       </div>
 
-      <div id="stdin">
+      {/* <div id="stdin">
         <span>
           C:\User\Guest <FontAwesomeIcon icon={faChevronRight} />
           <span className="text">
             <FontAwesomeIcon icon={faWindowMinimize} />{" "}
           </span>
         </span>
-      </div>
+      </div> */}
     </div>
   );
 }

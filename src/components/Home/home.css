@@ -14,7 +14,7 @@ footer {
   bottom: 0;
   color: #f0fdf4;
   text-shadow: 0 0 5px #4ade80;
-  align-items: baseline;
+  align-items: flex-end;
   justify-content: space-around;
 }
 
@@ -25,7 +25,7 @@ footer {
 
 #clock {
   flex: 1;
-  font-size: 32px;
+  font-size: 42px;
   text-align: right;
 }
 
