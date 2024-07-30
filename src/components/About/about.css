@@ -1,5 +1,7 @@
 #about-card {
-  padding: 10px 10vh;
+  padding: 0px 10vh;
+  overflow: auto;
+  height: 92%;
 }
 
 h1 {

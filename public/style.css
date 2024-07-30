@@ -13,4 +13,18 @@ body {
   background: rgb(30, 30, 30);
   color: white;
   overflow: hidden;
+  font-size: 1rem; /* Base font size */
+}
+
+/* Responsive text styles */
+@media (max-width: 768px) {
+  body {
+    font-size: 0.9rem; /* Slightly smaller font size for tablets */
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 0.8rem; /* Smaller font size for mobile devices */
+  }
 }

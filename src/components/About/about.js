@@ -1,18 +1,21 @@
 import React from "react";
+import Typewriter from "../utils/useTypewriter";
 import "./about.css";
 
 function About() {
   return (
     <div id="about-card">
-      <h1>About me</h1>
+      <h1>
+        <Typewriter text="About me:" speed="60" />
+      </h1>
       <p>
-        Welcome! I'm Ayden, a passionate and dedicated graduate with a knack for
+        Hey! I'm Ayden, a passionate and dedicated graduate with a knack for
         turning complex problems into elegant, efficient solutions. With a
         strong foundation in programming and a relentless curiosity for new
         technologies, I strive to create software that not only meets user needs
         but also delivers a seamless and enjoyable experience.
       </p>
-      <h2>My Journey</h2>
+      <h2>My Journey </h2>
       <p>
         My journey into the world of software engineering began with a
         fascination for how things work. This curiosity led me to pursue a
@@ -20,7 +23,7 @@ function About() {
         participating in multiple future courses where I honed my skills in
         programming, algorithms, and system design.
       </p>
-      <h2>Beyond the Code</h2>
+      <h2>Beyond Code</h2>
       <p>
         When I'm not working on personal coding projects, you can find me
         attending social sports, snow sports during the winter. I believe that a

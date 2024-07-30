@@ -32,3 +32,17 @@ header {
   justify-content: space-between;
   z-index: 1000;
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    padding: 10px;
+  }
+}

@@ -13,15 +13,13 @@ import TerminalNav from "./terminalNav";
 function Terminal() {
   return (
     <div className="content">
-      <div>
-        <TerminalNav />
-        <Routes>
-          <Route exact path="/" element={<Home />}></Route>
-          <Route exact path="/about" element={<About />}></Route>
-          <Route exact path="/projects" element={<Projects />}></Route>
-          <Route exact path="/skills" element={<Skills />}></Route>
-        </Routes>
-      </div>
+      <TerminalNav />
+      <Routes>
+        <Route exact path="/" element={<Home />}></Route>
+        <Route exact path="/about" element={<About />}></Route>
+        <Route exact path="/projects" element={<Projects />}></Route>
+        <Route exact path="/skills" element={<Skills />}></Route>
+      </Routes>
 
       {/* <div id="stdin">
         <span>

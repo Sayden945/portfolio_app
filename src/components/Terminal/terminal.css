@@ -86,3 +86,28 @@
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .terminal-buttons {
+    justify-content: center; /* Center buttons on smaller screens */
+  }
+
+  .terminal-buttons button {
+    height: 24px; /* Slightly smaller buttons */
+    width: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .terminal-buttons {
+    flex-direction: column; /* Stack buttons vertically on very small screens */
+    align-items: center;
+  }
+
+  .terminal-buttons button {
+    height: 22px; /* Even smaller buttons */
+    width: 22px;
+    margin-bottom: 5px; /* Add spacing between buttons */
+  }
+}
